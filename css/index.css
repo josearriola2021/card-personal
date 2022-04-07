@@ -72,6 +72,10 @@
     text-align: center;
 }
 
+.article__card-description::before{
+    content: "☀";
+}
+
 .footer{
     display: flex;
 }
@@ -97,10 +101,17 @@
 }
 
 .footer-nav__link{
+    display: flex;
     width: 1.75rem;
+    transition: all 0.25s;
 }
+
+.footer-nav__link:hover{
+    transform: scale(1.25);
+    ;
+}
+
 
 .footer-nav__link-image{
     width: 100%;
 }
-

@@ -103,12 +103,11 @@
 .footer-nav__link{
     display: flex;
     width: 1.75rem;
-    transition: all 0.25s;
+    transition: all 0.5s;
 }
 
 .footer-nav__link:hover{
-    transform: scale(1.25);
-    ;
+    transform: scale(1.25) rotate(360deg);
 }
 
 

@@ -40,36 +40,34 @@
 
 .article-container{
     display: flex;
-    padding: 0 2rem;
+    padding: 0 2em;
 }
 
 .article__card{
     background-color: #16181dbf;
     max-width: 256px;
-    padding: 1rem;
+    padding: 1em;
     border-radius: 1rem;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
     gap: 0.75rem;
+    text-align: center;
 }
 
 .article__card-title{
-    margin: 0;
     font-size: 1.5rem;
-    text-align: center;
+    margin: 0;
 }
 
 .article__card-keywords{
     margin: 0;
     font-size: 1rem;
-    text-align: center;
 }
 
 .article__card-description{
     margin: 0;
     font-size: 0.85rem;
-    text-align: center;
 }
 
 .article__card-description::before{
